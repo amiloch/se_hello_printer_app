@@ -10,6 +10,4 @@ script:
 
 after_sukcess:
   - make docker_build
-after_sukcess:
-  - make docker_build
   - make docker_push
