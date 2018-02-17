@@ -11,3 +11,8 @@ script:
 after_sukcess:
   - make docker_build
   - make docker_push
+
+  deploy:
+    provider: heroku
+    app: gentle-atoll-88129
+    api_key: ${HEROKU_API_KEY}
