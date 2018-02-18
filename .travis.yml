@@ -6,12 +6,13 @@ python:
 install:
   - make deps
 script:
-  - make test
+  - make lit
+  - make test_xunit
 
 after_sukcess:
   - make docker_build
   - make docker_push
-  - make test_xunit
+
 
 deploy:
   provider: heroku
