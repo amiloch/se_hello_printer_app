@@ -43,6 +43,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
+.. image:: https://travis-ci.org/amiloch/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/amiloch/se_hello_printer_app
   ::
 
     ...
@@ -53,7 +55,6 @@ Monitoring
 statuscake
 
 .. image:: https://app.statuscake.com/button/index.php?Track=v0QFgtxqeR&Days=1&Design=1
-
 
 
 
